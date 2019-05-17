@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name        = 'foreman_datacenter'
   s.version     = ForemanDatacenter::VERSION
   s.date        = Date.today.to_s
-  s.authors     = ['Pavel Ivanov', 'Eugene Loginov']
+  s.authors     = ['Pavel Ivanov', 'Eugene Loginov', 'Tobias Ehrig']
   s.email       = ['foreman@cloudevelops.com']
   s.homepage    = 'https://github.com/cloudevelops/foreman_datacenter'
   s.summary     = 'A plugin that lets you document your servers in a datacenter'
