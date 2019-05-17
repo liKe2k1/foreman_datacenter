@@ -6,7 +6,8 @@ module ForemanDatacenter
     RPC_CLIENTS = [
         'Juniper Junos (NETCONF)',
         'Cisco IOS (SSH)',
-        'Opengear (SSH)'
+        'Opengear (SSH)',
+        'Fujitsu (IRMC)'
     ].freeze
 
     has_many :devices, :class_name => 'ForemanDatacenter::Device'
